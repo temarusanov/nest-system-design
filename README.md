@@ -11,3 +11,7 @@ This projects inspired by
 - [Backend best practices](https://github.com/Sairyss/backend-best-practices)
 
 ---
+
+# Topics
+
+- [Facade Pattern](./examples/facade-pattern/)
