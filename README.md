@@ -10,8 +10,6 @@ This projects inspired by
 - [Domain-Driven Hexagon](https://github.com/Sairyss/domain-driven-hexagon)
 - [Backend best practices](https://github.com/Sairyss/backend-best-practices)
 
----
-
-# Topics
+## Topics
 
 - [Facade Pattern](./examples/facade-pattern/)
