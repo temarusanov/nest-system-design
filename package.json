@@ -1,7 +1,7 @@
 {
   "name": "nest-system-design",
   "scripts": {
-    "lint": "prettier --write ."
+    "lint": "prettier --write **/*.ts"
   },
   "dependencies": {
     "@nestjs/common": "^10.0.0",

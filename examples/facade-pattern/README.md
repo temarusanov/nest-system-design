@@ -16,6 +16,6 @@ NestJS modules can also have interface that other modules can use. Via `exports`
 
 That's very helpful to understand what API your module has, especially when you work in a big team.
 
-| Bad                                                                                  | Good                                                                                                                       |
-| ------------------------------------------------------------------------------------ | -------------------------------------------------------------------------------------------------------------------------- |
+| **Bad** | **Good** |
+|---|---|
 | Exports all services and gives developers basic functions without any logic usecases | To make a complex subsystem easier to use, a simple interface should be provided for a set of interfaces in the subsystem. |
