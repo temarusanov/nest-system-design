@@ -15,7 +15,7 @@ export class NotificationsModule {
             NotificationsFacadeService,
             NotificationsWebService,
             NotificationsEmailService,
-            NotificationsDiscordService
+            NotificationsDiscordService,
         ]
 
         return {

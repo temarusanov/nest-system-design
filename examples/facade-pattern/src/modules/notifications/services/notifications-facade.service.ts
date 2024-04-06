@@ -8,7 +8,7 @@ export class NotificationsFacadeService {
     constructor(
         private readonly email: NotificationsEmailService,
         private readonly web: NotificationsWebService,
-        private readonly discord: NotificationsDiscordService
+        private readonly discord: NotificationsDiscordService,
     ) {}
 
     // Functions will be available as module's public API
