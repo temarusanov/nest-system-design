@@ -10,8 +10,12 @@ Facade discusses encapsulating a complex subsystem within a single interface obj
 
 NestJS modules can also have interface that other modules can use. Via `exports` you can manipulate which functions your modules offer to use
 
-1. Create your logic in services. Example in [AuthTokensService](./src/modules/auth/services/auth-tokens.service.ts)
-2. Create Facade service (or API Service) that will be exported from your module. Example in [AuthFacadeService](./src/modules/auth/services/auth-facade.service.ts)
-3. Export your facade (api) service from your module. Example in [AuthModule](./src/modules/auth/auth.module.ts)
+1. Create your logic in services. Example in [NotificationsEmailService](./src/modules/notifications/services/notifications-email.service.ts)
+2. Create Facade service (or API Service) that will be exported from your module. Example in [NotificationsFacadeService](./src/modules/notifications/services/notifications-facade.service.ts)
+3. Export your facade (api) service from your module. Example in [NotificationsModule](./src/modules/notifications/notifications.module.ts)
 
 That's very helpful to understand what API your module has, especially when you work in a big team.
+
+| Bad | Good |
+|---|---|
+| Exports all services and gives developers basic functions without any logic usecases | To make a complex subsystem easier to use, a simple interface should be provided for a set of interfaces in the subsystem. |
