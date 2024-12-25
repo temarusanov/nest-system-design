@@ -15,3 +15,4 @@ This projects inspired by
 | **Topic** | **Description** |
 |---|-----|
 | [Facade pattern](./examples/facade-pattern/) | To make a complex subsystem easier to use, a simple interface should be provided for a set of interfaces in the subsystem. |
+| [Vertical slicing](./examples/vertical-slicing/) | Organizes code around business features or user scenarios.  |
